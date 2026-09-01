@@ -89,3 +89,27 @@ body {
 .hero-cta a:last-child:hover {
   background-color: var(--color-acento-suave);
 }
+
+/* ===== SOBRE MÍ ===== */
+#sobre-mi {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: var(--espacio-lg) var(--espacio-md);
+}
+
+#sobre-mi h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: var(--espacio-sm);
+  color: var(--color-texto);
+}
+
+#sobre-mi p {
+  font-size: 1.05rem;
+  color: var(--color-texto);
+  margin-bottom: var(--espacio-sm);
+}
+
+#sobre-mi p:last-child {
+  margin-bottom: 0;
+}
