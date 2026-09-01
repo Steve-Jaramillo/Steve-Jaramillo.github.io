@@ -1,0 +1,19 @@
+:root {
+  /* Paleta neutra cálida */
+  --color-fondo: #FAF6F0;        /* beige muy claro, casi blanco cálido */
+  --color-texto: #3D3229;        /* marrón oscuro, casi negro cálido */
+  --color-texto-suave: #6B5D4F;  /* marrón medio, para texto secundario */
+  --color-acento: #B5651D;       /* terracota/óxido, para links y CTAs */
+  --color-acento-suave: #E8DCC8; /* beige medio, para fondos de tarjetas/chips */
+  --color-borde: #D9CBB8;        /* beige-gris, para bordes sutiles */
+
+  /* Tipografía */
+  --fuente-principal: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Espaciados (escala consistente) */
+  --espacio-xs: 0.5rem;
+  --espacio-sm: 1rem;
+  --espacio-md: 2rem;
+  --espacio-lg: 4rem;
+  --espacio-xl: 6rem;
+}
