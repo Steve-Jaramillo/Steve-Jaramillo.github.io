@@ -32,3 +32,60 @@ body {
   color: var(--color-texto);
   line-height: 1.6;
 }
+
+/* ===== HERO ===== */
+#hero {
+  padding: var(--espacio-xl) var(--espacio-md);
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: var(--espacio-sm);
+  color: var(--color-texto);
+}
+
+#hero p {
+  font-size: 1.15rem;
+  color: var(--color-texto-suave);
+  margin-bottom: var(--espacio-md);
+}
+
+.hero-cta {
+  display: flex;
+  gap: var(--espacio-sm);
+  justify-content: center;
+}
+
+.hero-cta a {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+/* Botón primario (Ver proyectos) */
+.hero-cta a:first-child {
+  background-color: var(--color-acento);
+  color: var(--color-fondo);
+}
+
+.hero-cta a:first-child:hover {
+  background-color: var(--color-texto);
+}
+
+/* Botón secundario (Hablemos) */
+.hero-cta a:last-child {
+  background-color: transparent;
+  color: var(--color-acento);
+  border: 2px solid var(--color-acento);
+}
+
+.hero-cta a:last-child:hover {
+  background-color: var(--color-acento-suave);
+}
