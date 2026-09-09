@@ -33,6 +33,49 @@ body {
   line-height: 1.6;
 }
 
+/* ===== HEADER / NAVEGACIÓN ===== */
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--color-fondo);
+  border-bottom: 1px solid var(--color-borde);
+  z-index: 100;
+}
+
+.nav-principal {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--espacio-sm) var(--espacio-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-texto);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: var(--espacio-md);
+  list-style: none;
+}
+
+.nav-links a {
+  color: var(--color-texto-suave);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--color-acento);
+}
+
 /* ===== HERO ===== */
 #hero {
   padding: var(--espacio-xl) var(--espacio-md);
