@@ -241,3 +241,42 @@ body {
 .proyecto-recursos a:hover {
   text-decoration: underline;
 }
+
+/* ===== CONTACTO / FOOTER ===== */
+footer {
+  background-color: var(--color-texto);
+  padding: var(--espacio-lg) var(--espacio-md) var(--espacio-md);
+  text-align: center;
+}
+
+#contacto h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-fondo);
+  margin-bottom: var(--espacio-sm);
+}
+
+.contacto-lista {
+  display: flex;
+  justify-content: center;
+  gap: var(--espacio-md);
+  list-style: none;
+  margin-bottom: var(--espacio-md);
+}
+
+.contacto-lista a {
+  color: var(--color-acento-suave);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contacto-lista a:hover {
+  color: var(--color-fondo);
+  text-decoration: underline;
+}
+
+.copyright {
+  color: var(--color-texto-suave);
+  font-size: 0.85rem;
+}
