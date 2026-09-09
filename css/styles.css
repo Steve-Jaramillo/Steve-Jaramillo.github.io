@@ -113,3 +113,47 @@ body {
 #sobre-mi p:last-child {
   margin-bottom: 0;
 }
+
+/* ===== STACK / HERRAMIENTAS ===== */
+#stack {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--espacio-lg) var(--espacio-md);
+}
+
+#stack h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: var(--espacio-md);
+  color: var(--color-texto);
+  text-align: center;
+}
+
+.stack-categoria {
+  margin-bottom: var(--espacio-md);
+}
+
+.stack-categoria h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-texto-suave);
+  margin-bottom: var(--espacio-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stack-categoria ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espacio-xs);
+  list-style: none;
+}
+
+.stack-categoria li {
+  background-color: var(--color-acento-suave);
+  color: var(--color-texto);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
