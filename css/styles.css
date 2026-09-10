@@ -26,6 +26,10 @@
 }
 
 /* Estilos globales del documento */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--fuente-principal);
   background-color: var(--color-fondo);
